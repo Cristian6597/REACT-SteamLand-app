@@ -1,16 +1,84 @@
-# React + Vite
+REACT-SteamLand-app
+Steampunk Adventure Park — a React app set in an alternate Victorian era where steam technology evolved to fight the resurgence of the Black Plague.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
+This project is a React-based frontend for a steampunk-themed amusement park set in a fictional Victorian alternative timeline. The app offers an immersive UI that combines vintage Victorian aesthetics with modern design and responsiveness.
 
-Currently, two official plugins are available:
+Features
+Responsive Navbar with scroll-based collapsing behavior
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mobile-friendly Navigation Sheet for seamless navigation
 
-## Expanding the ESLint configuration
+Light/Dark Theme Toggle for enhanced UX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Reusable UI components (Badge, Button, Calendar, Card, Tabs, etc.)
 
-# REACT-SteamLand-app
+Tailwind CSS integration for utility-first styling
 
-# REACT-SteamLand-app
+React Router for client-side routing
+
+Built with Vite for fast bundling and dev server
+
+Tech Stack
+ReactJS
+
+Tailwind CSS
+
+ShadCN UI v0
+
+React Router
+
+Vite
+
+Installation
+Clone the repository:
+
+bash
+Copia
+Modifica
+git clone https://github.com/Cristian6597/REACT-SteamLand-app.git
+Install dependencies:
+
+bash
+Copia
+Modifica
+npm install
+Run the development server:
+
+bash
+Copia
+Modifica
+npm run dev
+Open your browser at http://localhost:5173
+
+Project Structure
+src/components — reusable UI components
+
+src/pages — page components (e.g. Navbar01Page)
+
+src/utils — utility functions
+
+src/styles — global styles and Tailwind config
+
+src/App.jsx — main app component with routing
+
+src/main.jsx — entry point
+
+Commit Highlight
+feat: add responsive navbar with theme toggle and navigation sheet
+
+Implemented Navbar01Page with scroll behavior
+
+Added mobile NavigationSheet
+
+Created ThemeProvider and ThemeToggle
+
+Developed UI components: Badge, Button, Calendar, Card, Tabs, NavigationMenu, Separator, Sheet
+
+Tailwind CSS integration
+
+Vite config for React & Tailwind
+
+Utility functions for class merging and theming
+
+Global styles and theming in index.css
